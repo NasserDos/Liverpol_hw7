@@ -17,10 +17,67 @@ Python assignment Mod4 HW7
 #				master unlock (0 for offand/or 1 for activatii 
 #			set inside and outside handles on the left and right sliding doors (0 or 1)
 # 			Set the gear shift setting (one of P N D 1 2 3 R).
+#			
+
+#				#### DATALIST ####
+#      		dataList will hold a list of all the data in the csv file
+#			dataList = []
+#
+#			Open the .csv file and extract the contents and filter them
+#			with urlopen(url) as wholeFile:
+#				for line in wholeFile:
+#					holderList = line.decode('UTF-8')[:-1].split(',')
+#					dataList.append(holderList)
+#
+
+#					 
+#			del dataList[0] #delete first row
+#
+#			return dataList #return the list
+#				#### END DATALIST ####
 
 # Module 2:
 #		########## Import the first module for tesing input file ##########
 #
+#				#### PROCESS DATA ####
+#
+#		Gears = [' P',' R',' N',' D',' 1',' 2',' 3']
+#		outcome = ['Both doors stay closed','Right door opens.','Left door opens.','Both doors open.',"Invalid Record: Both doors stay closed"]
+#   
+#		for setting in data:#for each entery
+#			lDoor = 0 #prepare door variables
+#			rDoor = 0
+#			if setting[9] in Gears: #validate gear
+#				if setting[9] == ' P' and int(setting[4]): #P on? master?
+#					if not int(setting[3]): #Child lock
+#						rDoor = int(setting[7]) #right inside
+#						lDoor = int(setting[5]) #left inside
+#	
+#						#left dash          left outside
+#					 lDoor = int(setting[1]) | int(setting[6]) | lDoor
+#
+#						#right dash         right outside
+#					rDoor = int(setting[2]) | int(setting[8]) | rDoor
+#
+#					if rDoor:
+#						result = 1
+#					if lDoor:
+#						result = 2
+#					if lDoor and rDoor:
+#						result = 3
+#
+#				else:
+#					result = 0 #gear is not P
+#							  
+#			else:
+#				result = 4 #Invalid input
+#
+#			fancy_print(setting)    #print the whole setting
+#			print(outcome[result])  #print the outcome
+#			print("***************************************************")
+#
+#					#### End Process Data ####
+
 #			Input file contains the following Information:
 #				H1, LD, RD, CL, ML, LI, LO, RI, RO, GS
 #				R1, 0, 0, 0, 1, 0, 1, 0, 0, P
