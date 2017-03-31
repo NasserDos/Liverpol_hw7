@@ -2,20 +2,13 @@
 
 #################################################
 #
-# Name : Nasser Binshabeeb
-# 
-#
-# Project Info : Python
-#
+# Names : Nasser Binshabeeb, Michael Shaw
+# Group : Liverpol
 #
 #################################################
 
-
 import sys
 from liverpol_make_list import csv_to_list
-
-
-
 
 
 def process_data(data):
