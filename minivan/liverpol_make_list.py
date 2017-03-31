@@ -2,11 +2,8 @@
 
 #################################################
 #
-# Name : Nasser Binshabeeb
-# 
-#
-# Project Info : Python
-#
+# Names : Nasser Binshabeeb, Michael Shaw
+# Group : Liverpol
 #
 #################################################
 
