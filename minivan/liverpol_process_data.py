@@ -3,7 +3,7 @@
 #################################################
 #
 # Names : Nasser Binshabeeb, Michael Shaw
-# Group : Liverpol
+# Group : Liverpool
 #
 #################################################
 
