@@ -24,7 +24,6 @@ def process_data(data):
     
     outcome = ['Both doors stay closed','Right door opens.','Left door opens.','Both doors open.',"Invalid Record: Both doors stay closed"] 
 
-    
     for setting in data:#for each entery
         lDoor = 0 #prepare door variables
         rDoor = 0
@@ -46,18 +45,15 @@ def process_data(data):
                     result = 2
                 if lDoor and rDoor:
                     result = 3
-
-
             else:
                 result = 0 #gear is not P
-
         else:
             result = 4 #Invalid input
-
 
         fancy_print(setting)    #print the whole setting
         print(outcome[result])  #print the outcome
         print("***************************************************")
+
 
 
 def fancy_print(aList):
@@ -96,14 +92,10 @@ def main():
 
 
 
-
 if __name__ == "__main__":
     # Call Main
     main()
 
     exit(0)
 
-
-
 #exit(0)
-

@@ -35,8 +35,6 @@ def csv_to_list(url):
 
 
 
-
-
 #Main Function
 def main():
     """
@@ -55,7 +53,4 @@ if __name__ == "__main__":
 
     exit(0)
 
-
-
 #exit(0)
-
