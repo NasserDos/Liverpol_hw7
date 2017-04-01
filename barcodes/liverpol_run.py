@@ -15,8 +15,18 @@ from urllib.request import urlopen
 import liverpol_defs
 
 
-
 def proc_data(url):
+    """
+    takes input from the url, and calls the imported functions from the
+    other modules to complete the task. A very basic exception is handled
+    to alert us that the task has failed by any means.
+    The function Then starts an input loop for the user to input more
+    zipCodes manually.
+    Params:
+        url: source of the test file
+    Return:
+        None
+    """
     try :
         with urlopen(url) as theFile:
             print("****** Test File ******")
@@ -26,8 +36,7 @@ def proc_data(url):
                 print('')
         print("****** End Test File ******")
     except:
-        print("Failed to open the Test file")
-
+        print("Failed to open the Test file, check the file path")
 
     finally:
         while True:
@@ -39,8 +48,6 @@ def proc_data(url):
             print('')
 
 
-
-
 def help():
     """
     Help function:
@@ -50,11 +57,10 @@ def help():
     
     print("Help function")
     print("bash Usage: ./liverpol_run.py <url>")
-    
+    print("Hint: http://icarus.cs.weber.edu/~hvalle/cs3030/data/barCodeData.txt")
     print("python3 Usage: liverpol_run ")
     print("then call liverpol_run.main(url)")
     exit(1)
-
 
 
 #Main Function
@@ -65,10 +71,9 @@ def main():
     """
     if len(sys.argv) > 1 :
         url = sys.argv[1]
-        proc_data(url)
     else:
-        help()
-
+        url = "http://icarus.cs.weber.edu/~hvalle/cs3030/data/barCodeData.txt"
+    proc_data(url)
 
 if __name__ == "__main__":
     # Call Main
@@ -76,7 +81,4 @@ if __name__ == "__main__":
 
     exit(0)
 
-
-
 #exit(0)
-
