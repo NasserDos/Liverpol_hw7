@@ -1,0 +1,104 @@
+commit a6cce6de03e9b982d6c403aebeb3567d33e24225
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Sat Apr 1 09:21:22 2017 -0600
+
+    Review
+
+commit 5cccfb2d7dbd327b36de7d0361688db64f736769
+Author: Michael Shaw <Michaelshaw3@mail.weber.edu>
+Date:   Fri Mar 31 13:13:30 2017 -0600
+
+    Added list code to README file
+
+commit 6ce90f9051811bd4fb81d60dbfee4d0f96dfdf36
+Author: Michael Shaw <Michaelshaw3@mail.weber.edu>
+Date:   Fri Mar 31 12:26:22 2017 -0600
+
+    Updated README file
+
+commit 99859f03bb5f3bf32fe913a34cbbf353838b98a0
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Fri Mar 31 10:52:51 2017 -0600
+
+    Delete .liverpol_run.py.swp
+
+commit 13300a6e3fbdff43c27895e44c65de2005c13435
+Merge: af5bd3f 25ef3de
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Fri Mar 31 10:52:28 2017 -0600
+
+    Merge pull request #2 from NasserDos/Nasser
+    
+    Nasser
+
+commit 25ef3deea596a71d328a4b9e0fff94b50d3164db
+Merge: 2069683 763b1d1
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Fri Mar 31 10:42:18 2017 -0600
+
+    Merge branch 'Nasser' of https://github.com/NasserDos/Liverpol_hw7 into Nasser
+
+commit 2069683bcf5f65afc34d1c2251b95f2b4b059eec
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Fri Mar 31 10:40:21 2017 -0600
+
+    Modules complete, needs review
+
+commit af5bd3f5be418562fbe3769720d372d714799e7f
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 19:19:59 2017 -0600
+
+    Delete liverpol_make_list.py
+    
+    extra copy
+
+commit 763b1d1c8f387d0a02647dc4c2d6f5300f8a03bd
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 19:19:32 2017 -0600
+
+    Delete liverpol_make_list.py
+    
+    removed
+
+commit 3d7c16d511d99a2242e71dc873d065ab47b7135c
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 19:07:03 2017 -0600
+
+    Update liverpol_process_data.py
+    
+    META data update
+
+commit 0126a68bedd63b8a43a15f8879a2a5963428dbda
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 19:06:20 2017 -0600
+
+    Update liverpol_make_list.py
+    
+    META data update
+
+commit 2cec00086a185d333854406b24a04d964cdf9adf
+Merge: 71de20f 8dab8a3
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 19:02:14 2017 -0600
+
+    Merge pull request #1 from NasserDos/Nasser
+    
+    Nasser
+
+commit 8dab8a3d03f296eafbdbd757fbb25ac96a881fa5
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 19:00:40 2017 -0600
+
+    minivan modules complete
+
+commit 6a975ddafb7ca7b590b97caef0f9bf71513f12e2
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Thu Mar 30 17:12:45 2017 -0600
+
+    Module to make a list from .csv file, A list of lists is returned
+
+commit 71de20f0923862b544dd1a2febc22eddd5231105
+Author: NasserDos <nasserbinshabeeb@mail.weber.edu>
+Date:   Tue Mar 28 12:41:15 2017 -0600
+
+    Initial commit
