@@ -8,7 +8,7 @@
 #################################################
 
 import sys
-from liverpol_make_list import csv_to_list
+from liverpol_prepare_hw7 import csv_to_list
 
 
 def process_data(data):
@@ -23,6 +23,8 @@ def process_data(data):
     Gears = [' P',' R',' N',' D',' 1',' 2',' 3']
     
     outcome = ['Both doors stay closed','Right door opens.','Left door opens.','Both doors open.',"Invalid Record: Both doors stay closed"] 
+
+    count = 0 # track record number
 
     for setting in data:#for each entery
         lDoor = 0 #prepare door variables
@@ -50,13 +52,14 @@ def process_data(data):
         else:
             result = 4 #Invalid input
 
-        fancy_print(setting)    #print the whole setting
+        count += 1
+        fancy_print(setting,count)    #print the whole setting
         print(outcome[result])  #print the outcome
         print("***************************************************")
 
 
 
-def fancy_print(aList):
+def fancy_print(aList,counter):
     """
     Prints the contents of a list of size 10
     Args:
@@ -65,7 +68,7 @@ def fancy_print(aList):
         None
     """
     #output format
-    print("Reading Record",aList[0][1],":")
+    print("Reading Record",counter,":")
     print("Left dashboard switch (0 or 1):",aList[1].strip())
     print("Right dashboard switch (0 or 1):",aList[2].strip())
     print("Child lock switch (0 or 1):",aList[3].strip())

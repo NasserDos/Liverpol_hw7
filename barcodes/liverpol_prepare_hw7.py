@@ -78,7 +78,6 @@ def check_sum(zipCode):
     return (10 - sum(toList)) % 10
     
 
-
 #Main Function
 def main():
     """

@@ -12,7 +12,7 @@
 
 import sys
 from urllib.request import urlopen
-import liverpol_defs
+import liverpol_prepare_hw7
 
 
 def proc_data(url):
@@ -32,7 +32,7 @@ def proc_data(url):
             print("****** Test File ******")
             for line in theFile:
                 print("Zipcode:",line.decode("UTF-8").strip())
-                liverpol_defs.print_barcode(line.decode('UTF-8').strip())
+                liverpol_prepare_hw7.print_barcode(line.decode('UTF-8').strip())
                 print('')
         print("****** End Test File ******")
     except:
@@ -44,7 +44,7 @@ def proc_data(url):
             userInput = input()
             if userInput.lower() == 'q':
                 break
-            liverpol_defs.print_barcode(userInput)
+            liverpol_prepare_hw7.print_barcode(userInput)
             print('')
 
 
